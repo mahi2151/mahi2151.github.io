@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Mahi Yadav</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m Mahi Yadav, a BTech Computer Science student with experience in building web applications.I’m passionate about learning new technologies and creating responsive, user-friendly websites. My goal is to work as a full-stack developer in the future.</p>
+
+      <img src="profile/profile.jpga" alt="Profile picture of Mahi Yadav" />
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-card">
+        <h3>AMAZON CLONE</h3>
+        <p>Created an AMAZON clone using HTML and CSS</p>
+        <a href=project\amazon>View Project</a>
+      </div>
+      <div class="project-card">
+        <h3> WEATHER APP</h3>
+        <p>created weather app using HTML CSS and JAVASCRIPT</p>
+        <a href=project\rpsgamea>View Project</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+        <p id="formMessage" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mahi Yadav</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
